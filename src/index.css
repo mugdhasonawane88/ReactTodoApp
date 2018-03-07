@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.mainWrapper{
+  width: 550px;
+  margin: 0 auto;
+}
+.App h1
+{
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+}
+.new-todo{
+  padding: 16px 16px 16px 20px;
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+}
+.new-todo, .edit{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  font-size: 24px; 
+  line-height: 1.4em;
+  border: 0;
+  outline: none;
+  color: inherit; 
+  border: 1px solid #999;
+}
+.toggle-all {
+  position: absolute;
+  top: -55px;
+  left: -12px;
+  width: 60px;
+  height: 34px;
+  text-align: center;
+  border: none;
+}
+.todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}  
+
+.todo-list li {
+    position: relative;
+    font-size: 24px;
+    border-bottom: 1px solid #ededed;
+}      
+
+
